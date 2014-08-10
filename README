@@ -1,0 +1,5 @@
+Collection of all my bits and pieces of scripts I write along the way to help with one tfor everything. hinm or another. Running a script with no arguments should produce a help message with usage information. 
+
+emptyScript.py is the starting point for all scripts, and contains the boilerplate text. 
+
+

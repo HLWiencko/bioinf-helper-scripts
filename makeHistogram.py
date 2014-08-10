@@ -16,7 +16,7 @@ def lineno():
     return "line " + str(inspect.currentframe().f_back.f_lineno) + ": "
 
 def parseArgs():
-    parser = argparse.ArgumentParser(description='Description goes here.')
+    parser = argparse.ArgumentParser(description='Create histogram of sequence lengths for a FASTA collection of sequences.')
 
     parser.add_argument('-f', help='Filename', metavar='filename')
     #parser.add_argument('-p', help='Prefix for output', metavar='prefix')
